@@ -1,0 +1,356 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #050505;
+}
+button {
+    color: #080808;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    
+  }
+ strong a{
+    text-decoration: none;
+    color: Black;
+  }
+  
+  button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #101010, inset -4px -4px 12px #ffffff;
+  }
+  
+
+h2{
+    color:white;
+    text-transform:uppercase;
+    text-decoration: overline 2px solid rgb(255, 217, 255);
+    margin:5px}
+
+
+
+    .navbar-brand:hover {
+        color:rgb(245, 239, 245) !important; /* Hover color */
+        animation: reverse;
+    }
+
+
+p strong {
+    color: white;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0; /* Reduced padding */
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em; /* Reduced font size */
+}
+
+header p {
+    margin: 5px 0 0; /* Reduced margin */
+}
+
+img {
+    display: inline-block;
+    max-width: 80px; /* Reduced width */
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    width: 90%; /* Adjusted width */
+    margin: 0 auto;
+    padding: 10px 0; /* Reduced padding */
+}
+
+section {
+    padding: 20px 0; /* Reduced padding */
+    text-align: left; /* Justify to the left */
+}
+
+section#about {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    text-align: center;
+}
+
+.card {
+    width: 250px; /* Reduced width */
+    margin: 5px; /* Reduced margin */
+    box-shadow: 0 2px 4px rgba(249, 248, 248, 0.932); /* Adjusted shadow */
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: transparent;
+    outline: 1px solid rgb(13, 13, 13); /* Adjusted outline */
+    text-align: left; /* Justify to the left */
+}
+
+.hero-image {
+    width: 100%;
+    height: 80px; /* Reduced height */
+    display: flex;
+    justify-content: flex-start; /* Justify to the left */
+    align-items: center;
+    font-size: 60px; /* Reduced font size */
+    padding-left: 10px; /* Add padding for left alignment */
+}
+
+.hero-image i {
+    color: #fff;
+}
+
+.hero-image .fab.fa-html5 {
+    background-color: #e44d26;
+    width: 80px; /* Reduced width */
+    height: 80px; /* Reduced height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.hero-image .fab.fa-css3-alt {
+    background-color: #1572b6;
+    width: 80px; /* Reduced width */
+    height: 80px; /* Reduced height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.hero-image .fab.fa-js-square {
+    background-color: #f7df1e;
+    width: 80px; /* Reduced width */
+    height: 80px; /* Reduced height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 10px; /* Reduced padding */
+}
+
+.content h2 {
+    margin: 0 0 5px; /* Reduced margin */
+    font-size: 20px; /* Reduced font size */
+    color: #fff;
+    text-align: left; /* Justify to the left */
+}
+
+.content p {
+    margin: 0;
+    font-size: 14px; /* Reduced font size */
+    text-align: left; /* Justify to the left */
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Justify to the left */
+}
+.project-item {
+    background-color: rgb(7, 7, 7);
+    border: 1px solid #fcfcfc;
+    border-radius: 5px;
+    color: rgb(249, 246, 246);
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Container for the entire project section */
+#projects .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section heading */
+#projects h2 {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: overline 2px solid rgb(255, 217, 255);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* List of project cards */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Individual project item (card) */
+.project-item {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px; /* Adjust based on your layout */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-10px); /* Lifts the card slightly on hover */
+}
+
+/* Image container with fixed aspect ratio */
+.macbook-screen {
+    position: relative;
+    width: 100%;
+ 
+    overflow: hidden;
+    background: #f0f0f0;
+}
+
+.macbook-screen img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Project title and description */
+.project-item h3 {
+    margin: 15px;
+    font-size: 1.2em;
+}
+
+.project-item p {
+    margin: 15px;
+    font-size: 0.9em;
+    color: #ddd;
+}
+
+/* Button for GitHub link */
+.project-item .btn {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 15px;
+    background-color: #ff9800;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-item .btn:hover {
+    background-color: #e68a00;
+}
+
+
+.project-item h3,
+.project-item p {
+    color: #fff;
+    text-align: left;
+}
+
+.project-item a {
+    color: #fff;
+}
+
+
+.skill-bar {
+    position: relative;
+    height: 20px; /* Adjusted height for better visibility */
+    background-color: #333;
+    border-radius: 50px;
+    margin: 10px 0;
+    overflow: hidden;
+    width: 35%; /* Make the bar wider */
+    margin: 0px 10  auto; /* Center align the bar */
+}
+
+.skill-bar span {
+    display: block;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.html-skill {
+    background-color: #F7DF1E;
+    width:100%; /* Represents 95% */
+}
+
+.css-skill {
+    background-color: #E44D26;
+    width: 100%; /* Represents 80% */
+}
+
+.js-skill {
+    background-color: #1572B6;
+    width: 50%; /* Represents 50% */
+}
+
+.skill-text {
+    position: relative;
+    width: 100%;
+    text-align: left; /* Left align text */
+    padding-left: 5px; /* Add padding for left alignment */
+    color: #fff;
+    line-height: 20px; /* Match the height of the skill bar */
+    font-size: 12px; /* Smaller font size */
+    font-weight: bold;
+    top: -20px; /* Align text with the bar */
+}
+
+.skills-p{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    color:white;
+    font-size: smaller;
+    font-weight: bolder;
+    
+}
+
+.skills-p:hover {
+    color:rgb(250, 165, 250) !important; /* Hover color */
+}
+
+
+
+
+
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0; /* Reduced padding */
+    text-align: center;
+}
+
+footer a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
