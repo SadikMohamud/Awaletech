@@ -300,17 +300,17 @@ section#about {
 
 .html-skill {
     background-color: #F7DF1E;
-    width:100%; /* Represents 95% */
+    width:100%; /* Represents 100% */
 }
 
 .css-skill {
     background-color: #E44D26;
-    width: 100%; /* Represents 80% */
+    width: 100%; /* Represents 100% */
 }
 
 .js-skill {
     background-color: #1572B6;
-    width: 50%; /* Represents 50% */
+    width: 100%; /* Represents 100% */
 }
 
 .skill-text {
